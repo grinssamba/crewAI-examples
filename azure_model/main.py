@@ -1,7 +1,7 @@
 import sys
 from crewai import Agent, Task
 import os
-from dotenv import load_dotenv
+from.env import load_dotenv
 from crewai import Crew, Process
 from langchain_openai import AzureChatOpenAI
 

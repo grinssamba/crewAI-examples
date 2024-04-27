@@ -12,7 +12,7 @@ from tools.file_tools import FileTools
 from tools.search_tools import SearchTools
 from tools.template_tools import TemplateTools
 
-from dotenv import load_dotenv
+from.env import load_dotenv
 load_dotenv()
 
 class LandingPageCrew():

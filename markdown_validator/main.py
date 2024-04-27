@@ -1,7 +1,7 @@
 import sys
 from crewai import Agent, Task
 import os
-from dotenv import load_dotenv
+from.env import load_dotenv
 from langchain.tools import tool
 from langchain.chat_models.openai import ChatOpenAI
 from pymarkdown.api import PyMarkdownApi, PyMarkdownApiException

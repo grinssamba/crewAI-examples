@@ -3,7 +3,7 @@ from textwrap import dedent
 from trip_agents import TripAgents
 from trip_tasks import TripTasks
 
-from dotenv import load_dotenv
+from.env import load_dotenv
 load_dotenv()
 
 class TripCrew:

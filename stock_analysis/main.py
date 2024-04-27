@@ -4,7 +4,7 @@ from textwrap import dedent
 from stock_analysis_agents import StockAnalysisAgents
 from stock_analysis_tasks import StockAnalysisTasks
 
-from dotenv import load_dotenv
+from.env import load_dotenv
 load_dotenv()
 
 class FinancialCrew:
